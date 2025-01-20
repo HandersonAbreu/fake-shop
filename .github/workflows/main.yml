@@ -15,8 +15,8 @@ jobs:
       - name: Envio da Imagem Docker
         run: echo "Executando o comando Docher push"
 
-cd:
-  runs-on: ubuntu-lastest
+  cd:
+    runs-on: ubuntu-lastest
     steps:
       - name: Autenticar na AWS
         run:  echo "Executando o comando aws configure"
